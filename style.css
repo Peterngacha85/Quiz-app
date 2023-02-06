@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background: #c9cbfb;
+}
+#container{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    max-width: 500px;
+    border: blueviolet 3px solid;
+    height: max-content;
+}
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    max-width: 480px;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165,235, 0.25);
+}
+.choice-container:hover{
+    background-color: rgba(50, 76, 99, 0.25);
+
+}
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: aqua ;
+    color: #fff;
+    cursor: pointer;
+}
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+.choice-text:hover{
+    color: #fff;
+}
+#score_contanier{
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+    padding: 5px auto;
+}
+#score_contanier button h2{
+   background: blueviolet;
+   padding: 7px;
+   color: #fff;
+}
+#score_contanier button span{
+    background: blueviolet;
+    padding: 7px;
+    color: #fff;
+ }
+
+
+
+@media (max-width: 360px) {
+    *{
+        width: fit-content;
+    }
+    #question{
+        max-width: 350px;
+    }
+    #container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: max-content;
+        border: blueviolet 3px solid;
+        height: max-content;
+    }
+    #score_contanier{
+        position: absolute;
+        bottom: 300px;
+        left: 100px;
+        padding: 5px auto;
+    }
+    .choice-container{
+        margin-bottom: 0.5rem;
+        width: 100%;
+        /* max-width: 360px; */
+        font-size: 0.8rem;
+        border: 0.1rem solid rgb(86, 165,235, 0.25);
+        border-right: blueviolet 1px solid;
+
+    }
+   
+
+}
