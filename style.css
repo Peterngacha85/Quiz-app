@@ -74,7 +74,7 @@
     }
     #score_contanier{
         position: absolute;
-        bottom: 300px;
+        bottom: 0;
         left: 100px;
         padding: 5px auto;
     }
